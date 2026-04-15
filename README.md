@@ -1,12 +1,14 @@
 # Smart Data Processing System
 
-## Description
-A Python Flask-based API that processes input data, validates it, and stores it in a SQLite database.
+## Overview
+A Flask-based REST API that performs full CRUD operations with data validation, logging, and SQLite database integration.
 
 ## Features
-- REST API using Flask
-- Data validation
-- SQLite database integration
+- Create data (POST)
+- Fetch data (GET)
+- Update data (PUT)
+- Delete data (DELETE)
+- Input validation
 - Logging system
 
 ## Tech Stack
@@ -14,13 +16,35 @@ A Python Flask-based API that processes input data, validates it, and stores it 
 - Flask
 - SQLite
 
-## API Endpoint
+## API Endpoints
 
-### POST /process
+### 1. Create Data
+POST /process
 
 Request:
-```json
 {
   "name": "yaswanth",
   "value": 10
 }
+
+---
+
+### 2. Get Data
+GET /data
+
+---
+
+### 3. Update Data
+PUT /update/<id>
+
+---
+
+### 4. Delete Data
+DELETE /delete/<id>
+
+---
+
+## How to Run
+
+pip install flask  
+python app.py
