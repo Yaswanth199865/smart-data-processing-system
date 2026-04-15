@@ -1,7 +1,7 @@
 # Smart Data Processing System
 
 ## 🚀 Overview
-A Flask-based REST API that performs full CRUD operations with data validation, logging, and SQLite database integration.
+A backend RESTful API system built using Flask to process, store, and manage data with full CRUD functionality.
 
 ## 🔧 Features
 - Create data (POST)
