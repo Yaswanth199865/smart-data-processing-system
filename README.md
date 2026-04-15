@@ -35,3 +35,14 @@ DELETE /delete/<id>
 ```bash
 pip install -r requirements.txt
 python app.py
+
+## 📊 Sample Response
+
+```json
+[
+  {
+    "id": 1,
+    "name": "yaswanth",
+    "value": 20
+  }
+]
